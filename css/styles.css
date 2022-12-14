@@ -1,0 +1,133 @@
+body {
+  font-family: "Montserrat-Black", sans-serif;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h3 {
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.big-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+#title {
+  background-color: #fd2948;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+.fa-brands {
+  margin-right: 5px;
+}
+
+/* Navigation bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 10px;
+}
+.nav-link {
+  font-size: 18px;
+}
+/* Download buttons */
+.download-button {
+  margin: 5% 3% 3% 5%;
+}
+.titleImage {
+  width: 21%;
+  transform: rotate(28deg);
+  position: absolute;
+  right: 20%;
+}
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .titleImage {
+    width: 50%;
+    position: static;
+    right: 20%;
+    transform: rotate(0);
+  }
+}
+.img-feature {
+  color: #ff7300;
+  image-resolution: 50px;
+}
+#features {
+  padding: 4rem 10rem 4rem 10rem;
+  background-color: white;
+  position: relative;
+}
+.para-feature {
+  font-weight: bold;
+  color: #bfbfbf;
+}
+.on-hover:hover {
+  color: #fd2948;
+}
+#testimonials {
+  background-color: #ff7300;
+  text-align: center;
+  color: white;
+}
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+}
+#press {
+  background-color: #ff7300;
+  padding-bottom: 3%;
+  text-align: center;
+}
+.img-press {
+  width: 15%;
+  margin: 20px 30px 50px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+#cta {
+  background-color: #fd2948;
+  color: white;
+  text-align: center;
+  padding: 3% 15% 3%;
+}
+.cta-heading {
+  font-size: 2rem;
+  width: 60%;
+  margin: auto;
+}
+#footer {
+  text-align: center;
+  background-color: #fff;
+  color: grey;
+  padding: 4% 5%;
+}
